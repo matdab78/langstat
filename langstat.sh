@@ -12,3 +12,5 @@ if [ ! -f $1 ]; then
 	exit
 fi
 
+nbChar=$(wc -m $nameDico )
+
