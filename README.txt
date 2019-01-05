@@ -1,0 +1,1 @@
+The purpose of the project is to extract the number of words using each letter of the alphabet from A to Z from the file dico.txt. The script (langstat.sh) takes as parameter the name of the dictionary file to analyze. The result is displayed in the console from the most used letter to the least used one.
