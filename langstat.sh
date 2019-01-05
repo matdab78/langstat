@@ -12,5 +12,7 @@ if [ ! -f $1 ]; then
 	exit
 fi
 
-nbChar=$(wc -m $nameDico )
+wc -m $nameDico > "$0.temporary"
+nbChar=$(grep -oE ^[0-9]+ "$0.temporary")
+rm "$0.temporary"
 
